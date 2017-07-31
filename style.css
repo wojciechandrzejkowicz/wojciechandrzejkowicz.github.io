@@ -1,4 +1,8 @@
+body {
+    bachground-color: #00acee;
+    font-color: #fff;
+};
 main {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+
 }
