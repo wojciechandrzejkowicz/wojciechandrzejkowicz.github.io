@@ -1,8 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
+
 body {
     background-color: #00acee;
     color: #fff;
-};
-main {
     text-align: center;
-
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+main .box, header {
+    font-family: 'Bubbler One', sans-serif;
+}
+.direction {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 30px;
+    height: 100px;
+}
+.direction button {
+    width: 250px;
+    margin: auto;
+    margin-top: 0;
+    color: white;
+    background-color: #00acee;
+    height: 30px;
+    border: 2px solid white;
+}
+.direction a {
+    width: 234px;
+    height: 21px;
+    border: 2px solid white;
+    color: white;
+    margin: auto;
+    font: 11px system-ui;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px 3px;
+    margin-bottom: 0;
 }
